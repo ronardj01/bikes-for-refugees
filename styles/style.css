@@ -40,6 +40,10 @@ button {
 	background: #ce5f31;
 }
 
+#btn:hover,
+#btn:focus {
+	background: #d4b13e
+}
 
 /* Alert */
 .alert {
