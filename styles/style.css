@@ -30,9 +30,19 @@ button {
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
+}
 
 	/*  Challenge: can you make the navigation links orange on hover? */
+.nav-link:hover {
+		background: orange; /*Preguntar porque no me funciona color aquí ???????????????????????.*/
+	}
+
+.nav-link {
+	margin: 2px;
+	padding: 1px;
+	border: 1px solid transparent;
 }
+
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
