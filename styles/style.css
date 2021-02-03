@@ -58,7 +58,7 @@ background: #d4b13e
 
 .jumbotron {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
 	border: 1px solid black;
 }
 /* Alert */
