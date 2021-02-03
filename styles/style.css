@@ -33,10 +33,11 @@ button {
 }
 
 	/*  Challenge: can you make the navigation links orange on hover? */
-.nav-link:hover {
-		background: orange; /*Preguntar porque no me funciona color aquí ???????????????????????.*/
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: orange; /*Preguntar porque no me funciona color aquí ???????????????????????.*/
 	}
-
+	
+	
 .nav-link {
 	margin: 2px;
 	padding: 1px;
@@ -52,9 +53,14 @@ button {
 
 #btn:hover,
 #btn:focus {
-	background: #d4b13e
+background: #d4b13e
 }
 
+.jumbotron {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+}
 /* Alert */
 .alert {
 	position: relative;
